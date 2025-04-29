@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="search">
+            <input id="search-input" type="text" placeholder="Enter City Name" />
+            <button id="search-button"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="30"
+                viewBox="0 0 24 24" width="20" focusable="false" aria-hidden="true"
+                style="pointer-events: none; display: inherit; width: 100%; ">
+                <path clip-rule="evenodd"
+                d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+                fill-rule="evenodd"></path>
+            </svg></button>
+        </div>
+        <p class="error">Invalid Location</p>
+        <div id="content">
+            <div>
+                <div id="img">
+                    <img id="img1" src="" alt="no">
+                </div> 
+                <div id="tmp-city">
+                    <h1 id="temp">15°C</h1>
+                    <h2 id="city">Kolfe Keraniyo, Addis Ababa</h2>
+                </div>
+            </div>
+            <div id="hum-wind">
+                <div class="description">
+                    <img src="./images/humidity1.png" alt="no">
+                    <p class="humidity">12%</p>
+                    <P>Humidity</P>
+                </div>
+                <div class="description">
+                    <img src="./images/cloud-wind.png" alt="no">
+                    <p class="wind">9km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+                
+            </div>
+        </div>
+    
+        
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>

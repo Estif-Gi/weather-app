@@ -1,0 +1,99 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family:'Trebuchet MS', sans-serif;
+ box-sizing: border-box;
+}
+body{
+    background: #222;  
+}
+#container{
+  background: linear-gradient(135deg, rgba(1, 154, 123, 0.948),rgba(4, 4, 255, 0.458)); 
+  margin:100px auto 0;
+  width: 90%;
+  max-width: 470px;
+  border-radius: 20px;
+  padding:40px 35px;
+  text-align:center;
+}
+#search-input{
+    border-radius: 20px;
+    padding:10px;
+    background: #ebfffc;
+    color:#555;
+    flex:1;
+    border: solid 2px rgb(131, 129, 129);
+    font-size:18px;
+    margin-right:16px
+}
+#search-button{
+    border-radius: 50%;
+    width: 45px;
+    height:45px;
+    border: solid 2px rgb(141, 139, 139);
+   
+}
+.error{
+    text-align: center;
+    margin-left: 10px;
+    color:#ebfffc;
+    margin-top: 10px;
+    font-weight: 500; 
+    display: none;
+
+}
+#search{
+    width:100%;
+    display:flex;
+    align-items: center;
+    
+}
+img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+#content {
+    display: none;
+}
+#tmp-city{
+    margin-top: 30px;
+    
+    color:#ebfffc;
+    font-weight: 500;
+}
+#tmp-city h1{
+    font-weight: 500;
+    font-size: 80px;
+}
+#tmp-city h2{
+    font-weight: 500;
+    font-size: 45px;
+    
+}
+#hum-wind img {
+    width: 70px;
+    height:60px;
+    margin-right: 50px;
+    margin-bottom: 7px;
+}
+
+#hum-wind{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#ebfffc;
+    margin-top: 30px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  
+}
+.humidity , .wind{
+   
+    font-size: 28px;
+    margin-top:-6px;
+    font-weight: 500px;
+}
